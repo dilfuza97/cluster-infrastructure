@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = "${file("./dilfuz-service-account.json")}" #GOOGLE_CREDENTIALS to the path of a file containing the credential JSON
+  credentials = "${file("/Users/admin/Interview/dilfuz-service-account.json")}" #GOOGLE_CREDENTIALS to the path of a file containing the credential JSON
   project     = "${var.project}"
 }
 
